@@ -1,0 +1,17 @@
+/// add permission in menifest 
+
+ <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	
+	//// compile Gradle
+	
+	 compile 'com.squareup.okhttp3:okhttp:3.3.1'
+     compile 'com.nbsp:library:1.4'
+	 
+	 //// Add repositary in Gradle top of dependencies
+	 
+	 repositories {
+    maven {
+        url  "http://dl.bintray.com/lukaville/maven"
+    }
+}
